@@ -2,6 +2,17 @@ body {
 	padding: 10px;
 }
 
+a:link {
+	color: orange;
+}
+
+a:hover {
+	color: red;
+}
+
+a:visited {
+	color: darkred;
+}
 
 .special {
 	color: red;
@@ -15,4 +26,12 @@ body {
 
 .third {
 	border: solid 5px green;
+}
+
+.leadmessage p {
+	font-family: sans-serif;
+}
+
+p:nth-child(odd){
+	font-weight: bold;
 }
