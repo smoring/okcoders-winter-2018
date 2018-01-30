@@ -29,16 +29,25 @@ pre {
 }
 
 a {
-	color: #e81c4f;
+	color: #0645AD;
 }
 
 header {
 	background-color: #233;
-	background-image: url("header3.jpg");
+	background-image: url("header.jpg");
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	line-height: 1.2;
 	padding: 2em;
 	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
