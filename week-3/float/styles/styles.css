@@ -41,6 +41,26 @@ img {
 
 .columns {
 	display: flex;
+	flex-direction: column;
+	/*justify-content: space-around;*/
+}
+
+.columns p {
+/*	width: 33%;*/
+	padding: 6px;
+}
+
+.gallery {
+	display: flex;
+	/*x-axis*/
+/*	justify-content: center;*/
+	/*y-axis "baseline" aligns the bottoms of the items*/
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+
+.gallery img {
+	height: 180px;
 }
 
 /*.columns p {
