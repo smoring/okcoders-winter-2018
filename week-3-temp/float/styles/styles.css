@@ -1,0 +1,50 @@
+body {
+	/*center on page*/
+	margin: 0 auto;
+	max-width: 50em;
+	padding: 12px;
+
+	font-family: "Helvetica", "Arial", sans-serif;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	color: #444;
+}
+
+p {
+	color: #333;
+}
+
+img {
+	margin: 12px;
+	margin-top: 0px;
+	width: 240px;
+}
+
+.float-left {
+	float: left;
+	margin-left: 0px;
+}
+
+.float-right {
+	float: right;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*flex container*/
+
+.columns {
+	display: flex;
+}
+
+/*.columns p {
+	width: 31%;
+	float: left;
+	padding: 6px;
+}*/
