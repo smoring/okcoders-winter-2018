@@ -18,15 +18,18 @@ header {
 .main {
 	display: flex;
 	width: 100%;
+	min-height: 888px;
 }
 
 .sidebar {
 	order: 1;
 	flex: 1;
 	padding: 1.5em;
+	background-color: #A7C1B9;
 }
 
 .content {
+	background-color: #D0D9D0;
 	order: 1;
 	flex: 5;
 	padding: 1.5em;
