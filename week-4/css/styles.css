@@ -1,0 +1,33 @@
+body {
+	margin: 0 auto;
+	font-family: "Helvetica", "Arial", sans-serif;
+	line-height: 1.5;
+}
+
+header {
+	background-color: #3F5D52;
+	background-image: url("../images/succulents.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2em;
+	text-align: center;
+	color: #D0D9D0;
+}
+
+.main {
+	display: flex;
+	width: 100%;
+}
+
+.sidebar {
+	order: 1;
+	flex: 1;
+	padding: 1.5em;
+}
+
+.content {
+	order: 1;
+	flex: 5;
+	padding: 1.5em;
+}
